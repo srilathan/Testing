@@ -14,6 +14,7 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableWebMvc
 @ComponentScan(basePackages = "net.viralpatel.spring")
 public class AppConfig extends WebMvcConfigurerAdapter {
+	//this is second commit into the github...
 	@Bean
 	public ViewResolver viewResolver() {
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
